@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">ReportView</string>
     <string name="exitAppHint">再按一次退出</string>
-    <string name="instruction">URL集成\n直接使用URL访问服务器工程模板\n\n目录集成\n相当于将FineReport的App嵌入到自己App当中。需要进入FineReport&#12288;App时，只需发送服务器地址、服务器名称、用户名、密码验证即可登录FineReport&#12288;App。此时若服务器设置了主页，则登录后跳转到主页；没设置主页则直接显示目录页。</string>
+    <string name="instruction">URL集成\n直接使用URL访问服务器，原生预览模板。\n\n目录集成\n相当于将FineReport的App嵌入到自己App当中。需要进入FineReport&#12288;App时，只需发送服务器地址、服务器名称、用户名、密码验证即可登录FineReport&#12288;App。此时若服务器设置了主页，则登录后跳转到主页；没设置主页则直接显示目录页。</string>
     <string name="urlIntegration">URL集成</string>
     <string name="directoryIntegration">目录集成</string>
     <string name="serverAddress">服务器地址</string>

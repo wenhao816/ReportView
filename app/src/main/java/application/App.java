@@ -5,6 +5,7 @@ import android.app.Application;
 import android.content.res.Configuration;
 import android.os.Bundle;
 
+import com.fr.android.utils.FRSDK;
 import com.self.zsp.reportview.BuildConfig;
 
 import util.ActivitySuperviseUtils;
@@ -109,6 +110,10 @@ public class App extends Application {
           未捕获异常处理器
          */
         CrashManager.getInstance(this);
+        /*
+          帆软
+         */
+        FRSDK.initSDK(this);
         /*
           缓存
          */

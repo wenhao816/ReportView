@@ -38,28 +38,12 @@ dependencies {
     /*ButterKnife*/
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     /*依赖部分jar包文件*/
-    implementation('com.fr.android:bi-sdk:+', {
-        // 排或冲版
-        // exclude group: 'com.google.zxing', module: 'core'
-        // exclude group: 'com.jiechic.library', module: 'xUtils'
-        // exclude group: 'com.android.support', module: 'appcompat-v7'
-        // exclude group: 'com.android.support', module: 'recyclerview-v7'
-    })
-    /*BI模块*/
     implementation('com.fr.android:report-sdk:+', {
         // 排或冲版
-        // exclude group: 'com.google.zxing', module: 'core'
-        // exclude group: 'com.jiechic.library', module: 'xUtils'
-        // exclude group: 'com.android.support', module: 'appcompat-v7'
-        // exclude group: 'com.android.support', module: 'recyclerview-v7'
+        exclude group: 'com.google.zxing', module: 'core'
+        exclude group: 'com.jiechic.library', module: 'xUtils'
+        exclude group: 'com.android.support', module: 'appcompat-v7'
+        exclude group: 'com.android.support', module: 'recyclerview-v7'
     })
     /*报表模块*/
-    implementation 'com.fr.android:location:+'
-    /*定位插件（获经纬度）*/
-    implementation 'com.fr.android:vpn:+'
-    /*VPN插件（登Sangfor VPN服务器）*/
-    implementation 'com.fr.android:gis:+'
-    /*GIS插件（显GIS地图图表）*/
-    implementation 'com.fr.android:push-xg:+'
-    /*推送插件（集信鸽推送服务）*/
 }

@@ -3,7 +3,6 @@
     <color name="colorPrimary">#303030</color>
     <color name="colorPrimaryDark">#303030</color>
     <color name="background">#fff</color>
-    <color name="transparent">#00000000</color>
     <color name="gray">#dddddd</color>
     <color name="graySelect">#cccccc</color>
     <color name="fontHint">#7C8185</color>

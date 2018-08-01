@@ -19,6 +19,7 @@ import butterknife.Optional;
 
 /**
  * @decs: URL集成
+ * 直接使用URL访问服务器，原生预览模板
  * @author: 郑少鹏
  * @date: 2018/8/1 11:27
  * @version: v 1.0
