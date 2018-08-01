@@ -1,0 +1,52 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base Application Theme -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!--去ActionBar-->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!--标题栏色-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--状态栏色 5.0+有效-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--控件选中色-->
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <!--窗口背景-->
+        <item name="android:windowBackground">@null</item>
+        <!--窗口透明-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!--页面切换动画-->
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+        <!--取消字体默大写-->
+        <item name="android:textAllCaps">false</item>
+        <!--改系统状态栏字体色 6.0+-->
+        <!--<item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>-->
+        <!--禁预览窗口-->
+        <!--<item name="android:windowDisablePreview">true</item>-->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme" />
+
+    <style name="AnimationActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+    <style name="Theme.Main" parent="AppTheme">
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    </style>
+    <!--EditText-->
+    <style name="LoginAndRegisterEditText" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/fontHint</item>
+        <item name="colorControlActivated">@color/fontHint</item>
+    </style>
+    <!--CheckBox-->
+    <style name="CheckBox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <!--波纹色-->
+        <!--<item name="android:colorControlHighlight">@color/colorPrimary</item>-->
+        <item name="colorControlNormal">@color/graySelect</item>
+        <item name="colorAccent">@color/red</item>
+    </style>
+</resources>

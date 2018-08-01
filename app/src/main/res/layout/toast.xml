@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/d110"
+    android:layout_height="@dimen/d110"
+    android:background="@drawable/loading_background"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivToast"
+        android:layout_width="?actionBarSize"
+        android:layout_height="?actionBarSize"
+        android:layout_marginBottom="@dimen/d6"
+        android:contentDescription="@string/toDo" />
+
+    <TextView
+        android:id="@+id/tvToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/background"
+        android:textSize="@dimen/s13" />
+</LinearLayout>

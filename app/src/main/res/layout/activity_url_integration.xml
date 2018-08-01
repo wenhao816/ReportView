@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context=".UrlIntegrationActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="@string/urlIntegration"
+        android:textColor="@color/background"
+        android:textSize="@dimen/s16" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/d12"
+                android:paddingRight="@dimen/d12"
+                android:paddingTop="@dimen/d18"
+                android:text="@string/serverAddress"
+                android:textColor="@color/fontInput"
+                android:textSize="@dimen/s14" />
+
+            <EditText
+                android:id="@+id/etUrlIntegrationServerAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="@string/serverAddressHint"
+                android:paddingBottom="@dimen/d18"
+                android:paddingLeft="@dimen/d12"
+                android:paddingRight="@dimen/d12"
+                android:paddingTop="@dimen/d18"
+                android:textColor="@color/fontInput"
+                android:textColorHint="@color/gray"
+                android:textSize="13sp"
+                android:theme="@style/LoginAndRegisterEditText"
+                tools:ignore="RtlSymmetry" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px1"
+                android:layout_marginLeft="@dimen/d12"
+                android:layout_marginRight="@dimen/d12"
+                android:background="@color/gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/d12"
+                android:paddingRight="@dimen/d12"
+                android:paddingTop="@dimen/d18"
+                android:text="@string/templateName"
+                android:textColor="@color/fontInput"
+                android:textSize="@dimen/s14" />
+
+            <EditText
+                android:id="@+id/etUrlIntegrationTemplateName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="@string/templateNameHint"
+                android:paddingBottom="@dimen/d18"
+                android:paddingLeft="@dimen/d12"
+                android:paddingRight="@dimen/d12"
+                android:paddingTop="@dimen/d18"
+                android:textColor="@color/fontInput"
+                android:textColorHint="@color/gray"
+                android:textSize="13sp"
+                android:theme="@style/LoginAndRegisterEditText"
+                tools:ignore="RtlSymmetry" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px1"
+                android:layout_marginLeft="@dimen/d12"
+                android:layout_marginRight="@dimen/d12"
+                android:background="@color/gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/d12"
+                android:paddingRight="@dimen/d12"
+                android:paddingTop="@dimen/d18"
+                android:text="@string/title"
+                android:textColor="@color/fontInput"
+                android:textSize="@dimen/s14" />
+
+            <EditText
+                android:id="@+id/etUrlIntegrationTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="@string/title"
+                android:paddingBottom="@dimen/d18"
+                android:paddingLeft="@dimen/d12"
+                android:paddingRight="@dimen/d12"
+                android:paddingTop="@dimen/d18"
+                android:textColor="@color/fontInput"
+                android:textColorHint="@color/gray"
+                android:textSize="13sp"
+                android:theme="@style/LoginAndRegisterEditText"
+                tools:ignore="RtlSymmetry" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px1"
+                android:layout_marginLeft="@dimen/d12"
+                android:layout_marginRight="@dimen/d12"
+                android:background="@color/gray" />
+
+            <CheckBox
+                android:id="@+id/cbUrlIntegrationFillingMode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/d18"
+                android:text="@string/fillingMode"
+                android:textColor="@color/red"
+                android:textSize="@dimen/s13"
+                android:theme="@style/CheckBox" />
+
+            <Button
+                android:id="@+id/btnUrlIntegrationStart"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                android:layout_marginBottom="@dimen/d12"
+                android:layout_marginLeft="@dimen/d12"
+                android:layout_marginRight="@dimen/d12"
+                android:layout_marginTop="@dimen/d36"
+                android:text="@string/start"
+                android:textColor="@color/fontInput"
+                android:textSize="@dimen/s14" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

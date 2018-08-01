@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="px1">1px</dimen>
+    <dimen name="d3">3dp</dimen>
+    <dimen name="d6">6dp</dimen>
+    <dimen name="d12">12dp</dimen>
+    <dimen name="d18">18dp</dimen>
+    <dimen name="d36">36dp</dimen>
+    <dimen name="d110">110dp</dimen>
+
+    <dimen name="s13">13sp</dimen>
+    <dimen name="s14">14sp</dimen>
+    <dimen name="s16">16sp</dimen>
+</resources>

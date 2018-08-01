@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--StatusBarUtil-->
+    <item name="statusBarUtil_fake_status_bar_view" type="id">id</item>
+    <item name="statusBarUtil_translucent_view" type="id">id</item>
+</resources>

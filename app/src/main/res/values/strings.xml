@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ReportView</string>
+    <string name="exitAppHint">再按一次退出</string>
+    <string name="instruction">URL集成\n直接使用URL访问服务器工程模板\n\n目录集成\n相当于将FineReport的App嵌入到自己App当中。需要进入FineReport&#12288;App时，只需发送服务器地址、服务器名称、用户名、密码验证即可登录FineReport&#12288;App。此时若服务器设置了主页，则登录后跳转到主页；没设置主页则直接显示目录页。</string>
+    <string name="urlIntegration">URL集成</string>
+    <string name="directoryIntegration">目录集成</string>
+    <string name="serverAddress">服务器地址</string>
+    <string name="serverAddressHint">http://www.finereporthelp.com:8889/app/ReportServer</string>
+    <string name="templateName">模板名称</string>
+    <string name="templateNameHint">WorkBook.cpt</string>
+    <string name="toDo">TODO</string>
+    <string name="start">开始</string>
+    <string name="serverAddressNull">服务器地址为空</string>
+    <string name="templateNameNull">模板名称为空</string>
+    <string name="title">标题</string>
+    <string name="fillingMode">填报模式</string>
+    <string name="serverName">服务器名称</string>
+    <string name="serverNameHint">数据分析</string>
+    <string name="userName">用户名</string>
+    <string name="passWord">密码</string>
+    <string name="userNameHint">test4</string>
+    <string name="passWordHint">123456</string>
+    <string name="withExtraParametersOrNot">是否附带以下额外参数</string>
+    <string name="parameterKey">key</string>
+    <string name="parameterValue">value</string>
+    <string name="serverNameNull">服务器名称为空</string>
+    <string name="userNameNull">用户名为空</string>
+    <string name="passWordNull">密码为空</string>
+</resources>

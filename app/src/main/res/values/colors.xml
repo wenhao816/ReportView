@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#303030</color>
+    <color name="colorPrimaryDark">#303030</color>
+    <color name="background">#fff</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray">#dddddd</color>
+    <color name="graySelect">#cccccc</color>
+    <color name="fontHint">#7C8185</color>
+    <color name="fontInput">#333333</color>
+    <color name="red">#EB6B6B</color>
+    <color name="color_8c000000">#8c000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#B0000000</color>
+</resources>
