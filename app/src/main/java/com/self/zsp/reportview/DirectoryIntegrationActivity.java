@@ -112,7 +112,7 @@ public class DirectoryIntegrationActivity extends BaseActivity {
         String passWord = etDirectoryIntegrationPassWord.getText().toString();
         String parameterKey = etDirectoryIntegrationParameterKey.getText().toString();
         String parameterValue = etDirectoryIntegrationParameterValue.getText().toString();
-        /*if ("".equals(serverAddress)) {
+        if ("".equals(serverAddress)) {
             toastShort(getString(R.string.serverAddressNull));
         } else if ("".equals(serverName)) {
             toastShort(getString(R.string.serverNameNull));
@@ -120,25 +120,25 @@ public class DirectoryIntegrationActivity extends BaseActivity {
             toastShort(getString(R.string.userNameNull));
         } else if ("".equals(passWord)) {
             toastShort(getString(R.string.passWordNull));
-        } else {*/
-        // 头次安装加载启引导页
-        Intent welcomeIntent = new Intent(this, LoadAppFromWelcomeActivity.class);
-        // 地址（数据决策系统）
-        welcomeIntent.putExtra("serverIp", "http://aaaliuxinaaa.xicp.net:22754/zjyfx/ReportServer");
-        // 名称（数据决策系统）
-        welcomeIntent.putExtra("serverName", "数据分析");
-        // 用户名（数据决策系统）
-        welcomeIntent.putExtra("username", "test4");
-        // 密码（数据决策系统）
-        welcomeIntent.putExtra("password", "123456");
-        if (check) {
-            if (!"".equals(parameterKey) && !"".equals(parameterValue)) {
-                welcomeIntent.putExtra(parameterKey, parameterValue);
+        } else {
+            // 头次安装加载启引导页
+            Intent welcomeIntent = new Intent(this, LoadAppFromWelcomeActivity.class);
+            // 地址（数据决策系统）
+            welcomeIntent.putExtra("serverIp", serverAddress);
+            // 名称（数据决策系统）
+            welcomeIntent.putExtra("serverName", serverName);
+            // 用户名（数据决策系统）
+            welcomeIntent.putExtra("username", userName);
+            // 密码（数据决策系统）
+            welcomeIntent.putExtra("password", passWord);
+            if (check) {
+                if (!"".equals(parameterKey) && !"".equals(parameterValue)) {
+                    welcomeIntent.putExtra(parameterKey, parameterValue);
+                }
+                welcomeIntent.putExtra("fromurl", "com.self.zsp.reportview.DirectoryIntegrationActivity");
             }
-            welcomeIntent.putExtra("fromurl", "com.self.zsp.reportview.DirectoryIntegrationActivity");
+            startActivity(welcomeIntent);
         }
-        startActivity(welcomeIntent);
-        /*}*/
     }
 
     /**
